@@ -1,5 +1,5 @@
 .data
-    v: .space 4194304                  # Vectorul de memorie (1024 blocuri de 4 bytes fiecare)
+    v: .space 4194304                  # Vectorul de memorie (1024*1024 blocuri de 4 bytes fiecare)
     t: .space 4194304
     n: .space 4                     # Număr de operații
     x: .space 4                     # Dimensiune temporară pentru citire
